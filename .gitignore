@@ -1,0 +1,48 @@
+# Python virtual environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Python executables
+*.exe
+*.dll
+*.pyd
+*.pyc
+*.pyo
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.example
+.env.local
+.env.*.local
+myenv/Scripts/deactivate.bat
+myenv/Scripts/Activate.ps1
+myenv/Scripts/activate.bat
+myenv/Scripts/activate
+myenv/pyvenv.cfg

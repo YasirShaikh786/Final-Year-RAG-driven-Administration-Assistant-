@@ -1,0 +1,25 @@
+# requirements.txt
+
+# Core LangChain and community integrations
+langchain==0.1.0
+langchain-community
+
+# For running local embedding models
+sentence-transformers
+
+# For running local LLMs (like Llama 3 GGUF)
+llama-cpp-python
+
+# Database and Environment
+pymongo==4.6.0
+python-dotenv==1.0.0
+
+# UI Framework
+gradio==3.50.0
+
+# Document Loading & Web Scraping (kept from original)
+beautifulsoup4==4.12.0
+requests==2.31.0
+lxml==4.9.4
+argparse==1.4.0
+unstructured==0.12.0
