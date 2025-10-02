@@ -20,7 +20,7 @@ print("Connected to MongoDB.")
 
 # --- 2. LOAD DOCUMENTS FROM DIRECTORY ---
 # Note: Ensure you have a folder named 'sample_files' with .txt files in it
-loader = DirectoryLoader("./sample_files", glob="**/*.txt", show_progress=True)
+loader = DirectoryLoader("./sample_file", glob="**/*.txt", show_progress=True)
 data = loader.load()
 print(f"Loaded {len(data)} documents from the directory.")
 
